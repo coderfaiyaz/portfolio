@@ -1,0 +1,242 @@
+
+#home-section{
+  background-color: #757575;
+background-image: url(pexelss.jpg);
+background-position: center;
+background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+min-height: 730px;
+color: #000000;
+font-family: "Nunito", sans-serif;
+line-height: 1.6;
+  }
+
+  .logo{
+    width: 60px;
+    padding: 3% auto;
+  }
+
+  .nav-item{
+    padding: 15px;
+  }
+
+  .text-black{
+    margin-top: 30px;
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Nunito", sans-serif;
+  }
+  .scroll{
+  color: #000000;
+  }
+
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Nunito",sans-serif;
+  color: #939393;
+}
+
+.container{
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+h1,.h1,h2,.h2,h3, .h3,h4,.h4{
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+}
+
+.img-wrap{
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.my-pic{
+  max-width: 100%;
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
+.development-gif{
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.section-heading h2{
+  font-size: 3rem;
+  color: #000000;
+}
+
+.skill h4{
+  font-size: 18px;
+}
+
+.resume h4{
+  font-size: 18px;
+}
+.skill{
+  margin: auto 25px;
+  text-align: left;
+}
+.ability{
+  border-radius: 40px;
+  height: 250px;
+  weight: 350px;
+  padding-left: 30px;
+}
+.progress{
+  overflow: visible;
+  margin-bottom: 26px;
+  height: 4px;
+}
+
+.progress-bar{
+  background-color: #1e836c;
+  position: relative;
+  border-radius: 4px;
+  overflow: visible;
+}
+
+.progress .progress-bar span{
+  background-color: #1e836c;
+  position: absolute;
+  bottom: -20px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 2px 3px 2px 4px;
+  right: -1.4em;
+  border-radius: 2px;
+}
+
+.btn{
+  padding: 15px 30px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 30px;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  border-color: #45b29a;
+  background-color: #45b29a;
+  margin-top: 10px;
+}
+
+.btn:hover{
+  background-color: #1e836c;
+  border-color: #1e836c;
+}
+
+.can-do{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #1e836c;
+  font-size: 3rem;
+  font-weight: 400;
+}
+h3{
+  color: #000000;
+}
+
+.hire{
+  margin-top: 4rem;
+  padding-bottom: 20px;
+  color: #1e836c;
+}
+#portfolio-section{
+  padding: 10px 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #939393;
+}
+
+.row{
+  margin: 25px auto;
+  text-align: left;
+}
+
+.work{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #efefef;
+}
+
+.resume-meta{
+  font-size: 14px;
+  vertical-align: middle;
+  color: #939393;
+  margin-left: auto;
+}
+
+.resume-meta .icon{
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.whatsapp{
+position: fixed;
+width: 3%;
+bottom: 50px;
+right: 50px;
+z-index: 1;
+}
+
+.site-footer{
+  background: #efefef;
+  color: #777;
+  padding: 3em 0;
+  font-size: 14px;
+}
+
+.site-footer .social li{
+  display: inline-block;
+}
+
+.site-footer h4{
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.link li{
+  margin-bottom: 10px;
+}
+.social li{
+  margin-right: 5px;
+}
+.site-footer .social li a{
+  width: 30px;
+  height: 30px;
+  background: #777;
+  border-radius: 50%;
+  color: #ffff;
+  position: relative;
+  display: inline-block;
+}
+.site-footer .social li a >i{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+.site-footer .social li a:hover{
+  color: #1e836c;
+}
+a{
+  color: #777;
+  text-decoration: none;
+}
+a:hover{
+  color: #1e836c;
+}
+.copyright{
+color: #777;
+}
